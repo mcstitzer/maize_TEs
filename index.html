@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Maize TE annotations  | Maize TE Annotations</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.49" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.e08a958ae3e530145318b6373195c765.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+      <link href="http://mcstitzer.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Maize TE annotations" />
+      <link href="http://mcstitzer.github.io/index.xml" rel="feed" type="application/rss+xml" title="Maize TE annotations" />
+    
+
+    <meta property="og:title" content="Maize TE Annotations" />
+<meta property="og:description" content="Structural transposable element (TE) annotation of multiple maize genomes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://mcstitzer.github.io/" />
+
+<meta itemprop="name" content="Maize TE Annotations">
+<meta itemprop="description" content="Structural transposable element (TE) annotation of multiple maize genomes">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Maize TE Annotations"/>
+<meta name="twitter:description" content="Structural transposable element (TE) annotation of multiple maize genomes"/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+
+  
+  
+  <header class="cover bg-top" style="background-image: url('http://mcstitzer.github.io/images/darkcorn.jpg');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://mcstitzer.github.io" class="f3 fw2 hover-white no-underline white-90 dib">
+      Maize TE annotations
+    </a>
+    <div class="flex-l items-center">
+      
+      
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv4 pv6-l ph3 ph4-ns">
+        <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
+          Maize TE Annotations
+        </h1>
+        
+          <h2 class="fw1 f5 f3-l white-80 measure-wide-l center mt3">
+            Structural transposable element (TE) annotation of multiple maize genomes
+          </h2>
+        
+      </div>
+    </div>
+  </header>
+
+
+    <main class="pb7" role="main">
+      
+  <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
+    
+
+<h1 id="tes-along-a-region-of-the-genome">TEs along a region of the genome:</h1>
+
+<p>We reconstruct the history of TEs nesting into each other.
+For example, the blue TE on the left inserted first, and then was disrupted by the insertion of green and yellow TEs.</p>
+
+<p><img src="/images/dooner_style.png" alt="Dooner-style depiction of 8 TE copies" /></p>
+
+<h4 id="we-have-reconstructed-this-history-of-transposition-using-methods-described-in-jiao-et-al-2017-https-www-nature-com-articles-nature22971-and-a-forthcoming-manuscript">We have reconstructed this history of transposition, using methods described in <a href="https://www.nature.com/articles/nature22971">Jiao et al., 2017</a> and a forthcoming manuscript.</h4>
+
+<p>The linked files provide updated TIR, soloLTR, and LINE searches, which better identify matched target site duplications (TSDs) and terminal inverted repeats (where applicable).</p>
+
+<p>We suggest using a version of the annotation that fits your needs, here the <em>full-length TE</em> and <em>disjoined TE</em> versions.</p>
+
+<hr />
+
+<p>The <em>full-length TE</em> gff3 version is useful for counting the number of TEs in the genome. Each bar here is represented as a separate gff3 line.
+<img src="/images/allTE.png" alt="8 TEs along the genome" /></p>
+
+<p>B73: <a href="https://github.com/mcstitzer/maize_TEs/blob/master/B73.structuralTEv2.2018-08-31.gff3.gz"><code>B73.structuralTEv2.2018-08-31.gff3.gz</code></a></p>
+
+<p>W22: <a href="https://github.com/mcstitzer/maize_TEs/blob/master/W22.structuralTEv2.2018-09-12.allTE.gff3.gz"><code>W22.structuralTEv2.2018-09-12.allTE.gff3.gz</code></a></p>
+
+<hr />
+
+<p>The <em>disjoined TE</em> gff3 version is useful for mapping reads and assigning each to a TE.
+Each base pair in the genome is assigned to only one TE copy, that which brought the sequence into the genome.
+Fragments of individual copies can be reunited by their shared TE identifier (see below).</p>
+
+<p><img src="/images/disjoined.png" alt="8 TEs along the genome" /></p>
+
+<p>B73: <a href="https://github.com/mcstitzer/maize_TEs/blob/master/B73.2018-09-22.allTE.disjoined.gff3.gz"><code>B73.2018-09-22.allTE.disjoined.gff3.gz</code></a></p>
+
+<p>W22: <a href="https://github.com/mcstitzer/maize_TEs/blob/master/W22.2018-09-22.allTE.disjoined.gff3.gz"><code>W22.2018-09-22.allTE.disjoined.gff3.gz</code></a></p>
+
+<hr />
+
+<div style="text-align: left">
+We name each TE copy with a unique identifier, that contains information about the TE superfamily, TE family, and specific TE copy.
+</div>
+
+<p><span style="color:blue">DTA</span><span style="color:red">00001</span><span style="color:purple">Zm00001d</span><span style="color:turquoise">00001</span></p>
+
+<ul>
+<li><p><span style="color:blue"> DTA </span>: Superfamily, codes from <a href="https://www.nature.com/articles/nrg2165">Wicker et al., 2007</a></p></li>
+
+<li><p><span style="color:red">00001</span>: Family number (these match numbers assigned in MTEC of v1 of the maize genome for TIRs)</p></li>
+
+<li><p><span style="color:blue">DTA</span><span style="color:red">00001</span>: Together, these then define the family name</p></li>
+
+<li><p><span style="color:purple">Zm00001d</span>: Assembly version code for the reference genome, as assigned by the <a href="https://www.maizegdb.org/nomenclature">Maize Genetics Nomenclature Committee</a></p></li>
+
+<li><p><span style="color:turquoise">00001</span>: Copy ID number, unique to this copy in the genome. For disjoined copies, each line in the gff3 file contains this ID</p></li>
+</ul>
+
+<hr />
+
+<h4 id="legacy-annotations"><em>Legacy Annotations</em></h4>
+
+<p>Original TE annotations from the publications of B73 (<a href="https://www.nature.com/articles/nature22971">Jiao et al., 2017</a>) and W22 (<a href="https://www.nature.com/articles/s41588-018-0158-0">Springer et al., 2018</a>) can be found here:</p>
+
+<p>W22: <a href="https://ftp.maizegdb.org/MaizeGDB/FTP/W22_v2.0/W22.allTE.withSolo_10Jan18.gff3.gz"><code>W22.allTE.withSolo_10Jan18.gff3.gz</code></a></p>
+
+<p>B73: <a href="ftp://ftp.gramene.org/pub/gramene/CURRENT_RELEASE/gff3/zea_mays/repeat_annotation/B73v4.TE.filtered.gff3.gz"><code>B73v4.TE.filtered.gff3.gz</code></a></p>
+
+<p>Consensus and exemplar TEs from the Maize TE Consortium (MTEC) as published in <a href="http://science.sciencemag.org/content/326/5956/1112.full">Schnable et al., 2009</a> and <a href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000732">Baucom et al., 2009</a>, previously available at <a href="http://www.maizetedb.org">maizetedb.org</a> are available here:</p>
+
+<p><a href="https://github.com/mcstitzer/dawe_ab10_kindr/blob/master/identify_haplotypes/te_alignments/TE_12-Feb-2015_15-35.fa"><code>TE_12-Feb-2015_15-35.fa</code></a></p>
+
+  </article>
+  
+  
+  
+  
+  
+  
+  
+
+    </main>
+    <footer class="bg-near-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://mcstitzer.github.io" >
+    &copy; 2018 Maize TE annotations
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>
