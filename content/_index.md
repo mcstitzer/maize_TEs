@@ -25,6 +25,10 @@ B73: [`B73.structuralTEv2.fulllength.gff3.gz`](https://github.com/mcstitzer/maiz
 
 W22: [`W22.structuralTEv2.fulllength.gff3.gz`](https://github.com/mcstitzer/maize_TEs/blob/master/W22.structuralTEv2.fulllength.2018-09-12.gff3.gz)
 
+PH207: [`PH207.structuralTEv2.fulllength.gff3.gz`](https://github.com/mcstitzer/maize_TEs/blob/master/PH207.structuralTEv2.fulllength.2018-10-15.gff3.gz)
+
+Mo17: [`Mo17.structuralTEv2.fulllength.gff3.gz`](https://github.com/mcstitzer/maize_TEs/blob/master/Mo17.structuralTEv2.fulllength.2018-12-11.gff3.gz)
+
 --------------
 The *disjoined TE* gff3 version is useful for mapping reads and assigning each to a TE. 
 Each base pair in the genome is assigned to only one TE copy, that which brought the sequence into the genome. 
@@ -36,6 +40,9 @@ B73: [`B73.structuralTEv2.disjoined.gff3.gz`](https://github.com/mcstitzer/maize
 
 W22: [`W22.structuralTEv2.disjoined.gff3.gz`](https://github.com/mcstitzer/maize_TEs/blob/master/W22.structuralTEv2.disjoined.2018-09-22.gff3.gz)
 
+PH207: [`PH207.structuralTEv2.disjoined.gff3.gz`](https://github.com/mcstitzer/maize_TEs/blob/master/PH207.structuralTEv2.disjoined.2018-10-15.gff3.gz)
+
+Mo17: [`Mo17.structuralTEv2.disjoined.gff3.gz`](https://github.com/mcstitzer/maize_TEs/blob/master/Mo17.structuralTEv2.disjoined.2018-12-11.gff3.gz)
 
 ------------------
 
