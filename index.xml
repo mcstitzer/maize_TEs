@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Maize TE Annotations on Maize TE annotations</title>
-    <link>http://mcstitzer.github.io/</link>
+    <link>https://mcstitzer.github.io/</link>
     <description>Recent content in Maize TE Annotations on Maize TE annotations</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://mcstitzer.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mcstitzer.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
