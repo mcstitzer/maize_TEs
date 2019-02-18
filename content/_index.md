@@ -21,6 +21,8 @@ We suggest using a version of the annotation that fits your needs, here the *ful
 The *full-length TE* gff3 version is useful for counting the number of TEs in the genome, or for assessing the presence/absence of a copy based on split read and read pair approaches. Each bar here is represented as a separate gff3 line.
 ![8 TEs along the genome](/maize_TEs/images/allTE.png)
 
+![full-length gff](/maize_TEs/images/gff_allTE.png)
+
 B73: [`B73.structuralTEv2.fulllength.gff3.gz`](https://github.com/mcstitzer/maize_TEs/blob/master/B73.structuralTEv2.fulllength.2018-09-19.gff3.gz)
 
 W22: [`W22.structuralTEv2.fulllength.gff3.gz`](https://github.com/mcstitzer/maize_TEs/blob/master/W22.structuralTEv2.fulllength.2018-09-12.gff3.gz)
@@ -35,6 +37,8 @@ Each base pair in the genome is assigned to only one TE copy, that which brought
 Fragments of individual copies can be reunited by their shared TE identifier (see below). 
 
 ![8 TEs along the genome](/maize_TEs/images/disjoined.png)
+
+![disjoined gff](/maize_TEs/images/gff_disjoined.png)
 
 B73: [`B73.structuralTEv2.disjoined.gff3.gz`](https://github.com/mcstitzer/maize_TEs/blob/master/B73.structuralTEv2.disjoined.2018-09-19.gff3.gz)
 
@@ -62,6 +66,16 @@ We name each TE copy with a unique identifier, that contains information about t
 - <span style="color:purple">Zm00001d</span>: Assembly version code for the reference genome, as assigned by the [Maize Genetics Nomenclature Committee](https://www.maizegdb.org/nomenclature)
 
 - <span style="color:turquoise">00001</span>: Copy ID number, unique to this copy in the genome. For disjoined copies, each line in the gff3 file contains this ID
+
+
+---------------
+#### _Complementary Annotations_
+
+[Anderson et al., 2019](https://www.biorxiv.org/content/10.1101/547398v1) further filters these annotations, and identifies shared and non-shared TE copies across B73, W22, Mo17, and PH207.
+
+Annotations are available [here](https://github.com/SNAnderson/maizeTE_variation), for example, a non-redundant TE set that identifies copies shared and non-shared with B73:  
+[`non-redundant_TEs_4genomes_1Feb19.txt.gz`](https://github.com/SNAnderson/maizeTE_variation/blob/master/non-redundant_TEs_4genomes_1Feb19.txt.gz).
+
 
 ---------------
 

@@ -1,0 +1,6 @@
+baseURL = "http://mcstitzer.github.io"
+languageCode = "en-us"
+title = "Maize TE annotations"
+theme = "ananke"
+
+
