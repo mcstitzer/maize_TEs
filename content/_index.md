@@ -21,7 +21,7 @@ We suggest using a version of the annotation that fits your needs, here the *ful
 The *full-length TE* gff3 version is useful for counting the number of TEs in the genome, or for assessing the presence/absence of a copy based on split read and read pair approaches. Each bar here is represented as a separate gff3 line.
 ![8 TEs along the genome](/maize_TEs/images/allTE.png)
 
-![full-length gff](/maize_TEs/images/gff_allTE.png)
+![full-length gff](/maize_TEs/images/gffallTE.png)
 
 B73: [`B73.structuralTEv2.fulllength.gff3.gz`](https://github.com/mcstitzer/maize_TEs/blob/master/B73.structuralTEv2.fulllength.2018-09-19.gff3.gz)
 
@@ -38,7 +38,7 @@ Fragments of individual copies can be reunited by their shared TE identifier (se
 
 ![8 TEs along the genome](/maize_TEs/images/disjoined.png)
 
-![disjoined gff](/maize_TEs/images/gff_disjoined.png)
+![disjoined gff](/maize_TEs/images/gffdisjoined.png)
 
 B73: [`B73.structuralTEv2.disjoined.gff3.gz`](https://github.com/mcstitzer/maize_TEs/blob/master/B73.structuralTEv2.disjoined.2018-09-19.gff3.gz)
 
