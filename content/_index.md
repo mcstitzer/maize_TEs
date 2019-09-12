@@ -10,7 +10,7 @@ For example, the blue TE on the left inserted first, and then was disrupted by t
 
 ![Dooner-style depiction of 8 TE copies](/maize_TEs/images/dooner_style.png)
 
-#### We have reconstructed this history of transposition, using methods described in [Jiao et al., 2017](https://www.nature.com/articles/nature22971) and a forthcoming manuscript. 
+#### We have reconstructed this history of transposition, using methods described in [Jiao et al., 2017](https://www.nature.com/articles/nature22971), [Stitzer et al., 2019](https://www.biorxiv.org/content/10.1101/559922v1), and [Anderson et al., 2019](https://onlinelibrary.wiley.com/doi/abs/10.1111/tpj.14489). 
 
 The linked files provide updated TIR, soloLTR, and LINE searches, which better identify matched target site duplications (TSDs) and terminal inverted repeats (where applicable).
 
