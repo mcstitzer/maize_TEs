@@ -10,7 +10,7 @@ For example, the blue TE on the left inserted first, and then was disrupted by t
 
 ![Dooner-style depiction of 8 TE copies](/maize_TEs/images/dooner_style.png)
 
-#### We have reconstructed this history of transposition, using methods described in [Jiao et al., 2017](https://www.nature.com/articles/nature22971), [Stitzer et al., 2019](https://www.biorxiv.org/content/10.1101/559922v1), and [Anderson et al., 2019](https://onlinelibrary.wiley.com/doi/abs/10.1111/tpj.14489). 
+#### We have reconstructed this history of transposition, using methods described in [Jiao et al., 2017](https://www.nature.com/articles/nature22971), [Anderson et al., 2019](https://onlinelibrary.wiley.com/doi/abs/10.1111/tpj.14489), and [Stitzer et al., 2021](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1009768). 
 
 The linked files provide updated TIR, soloLTR, and LINE searches, which better identify matched target site duplications (TSDs) and terminal inverted repeats (where applicable).
 
@@ -63,7 +63,7 @@ We name each TE copy with a unique identifier, that contains information about t
 
 - <span style="color:blue">DTA</span><span style="color:red">00001</span>: Together, these then define the family name
 
-- <span style="color:purple">Zm00001d</span>: Assembly version code for the reference genome, as assigned by the [Maize Genetics Nomenclature Committee](https://www.maizegdb.org/nomenclature)
+- <span style="color:purple">Zm00001d</span>: Assembly version code for the reference genome, as assigned by the [Maize Genetics Nomenclature Committee](https://www.maizegdb.org/nomenclature), see [Complete table here](https://www.maizegdb.org/genome#!) 
 
 - <span style="color:turquoise">00001</span>: Copy ID number, unique to this copy in the genome. For disjoined copies, each line in the gff3 file contains this ID
 
@@ -71,7 +71,7 @@ We name each TE copy with a unique identifier, that contains information about t
 ---------------
 #### _Complementary Annotations_
 
-[Anderson et al., 2019](https://www.biorxiv.org/content/10.1101/547398v1) further filters these annotations, and identifies shared and non-shared TE copies across B73, W22, Mo17, and PH207.
+[Anderson et al., 2019](https://onlinelibrary.wiley.com/doi/full/10.1111/tpj.14489) further filters these annotations, and identifies shared and non-shared TE copies across B73, W22, Mo17, and PH207.
 
 Annotations are available [here](https://github.com/SNAnderson/maizeTE_variation), for example, a non-redundant TE set that identifies copies shared and non-shared with B73:  
 [`non-redundant_TEs_4genomes_1Feb19.txt.gz`](https://github.com/SNAnderson/maizeTE_variation/blob/master/non-redundant_TEs_4genomes_1Feb19.txt.gz).
