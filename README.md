@@ -11,4 +11,9 @@ Having issues with css - fixed by changing
 to
 `      <link href="/maize_TEs/dist/css/app.e08a958ae3e530145318b6373195c765.css" rel="stylesheet">`
 
-(```/maize_TEs/``` added to start ) on two lines
+(```/maize_TEs/``` added to start ) on two lines (or one?) in `public/index.html` after hugo makes it by running `./publish_changes.sh` here.
+
+To get the image at the top to run, have to manually change the url from:
+`/maize_TEs/images/darkcorn.jpg`
+to:
+`https://github.com/mcstitzer/maize_TEs/blob/gh-pages/images/darkcorn.jpg`
